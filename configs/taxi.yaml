@@ -1,0 +1,21 @@
+# Uloga ovog fajla je da centralizuje osnovne parametre:
+# broj epizoda, learning rate, gamma, epsilon, eval podesavanja
+# Prednost ovoga jeste sto parametri ne moraju da se menjaju direktno u kodu
+
+env_id: Taxi-v3
+
+seed: 0
+
+# trening
+episodes: 20000
+max_steps_per_episode: 200
+alpha: 0.1
+gamma: 0.99
+
+# epsilon-greedy
+eps_start: 1.0
+eps_end: 0.05
+eps_decay: 0.9995
+
+# evaluacija
+eval_episodes: 200
