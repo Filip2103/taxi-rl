@@ -28,7 +28,6 @@ def main():
     p.add_argument("--max-steps", type=int, default=200)
     p.add_argument("--seed", type=int, default=0)
 
-    # NEW: policy selection
     p.add_argument("--policy", choices=["random", "behavior"], default="random")
     p.add_argument("--model", default=None, help="Path to model .pkl (required if --policy behavior)")
     p.add_argument("--agent-type", choices=["q_learning", "sarsa"], default="q_learning",
