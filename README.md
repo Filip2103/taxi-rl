@@ -27,7 +27,7 @@ policies.py - ovde su pravila izbora akcije (random, e-greedy)
 utils.py - pomocne funkcije (YAML, pickle, seed, schedule)
 
 
-Tok A — Online trening
+Online trening
 
     Pokrećeš scripts/train_online.py
 
@@ -43,7 +43,7 @@ Tok A — Online trening
 
     Model se snima u models/online/
 
-Tok B — Generisanje offline dataset-a
+Generisanje offline dataset-a
 
     Pokrećeš scripts/collect_offline_dataset.py
 
@@ -61,7 +61,7 @@ Tok B — Generisanje offline dataset-a
 
     Dataset se čuva u data/offline/
 
-Tok C — Offline trening
+Offline trening
 
     Pokrećeš scripts/train_offline.py
 
@@ -75,7 +75,8 @@ Tok C — Offline trening
 
     Novi model se čuva u models/offline/
 
-Tok D — Evaluacija i demo
+Evaluacija i demo
+    
     Evaluacija
 
         Pokrećeš scripts/evaluate.py
